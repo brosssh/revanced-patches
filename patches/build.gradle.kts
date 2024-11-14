@@ -1,13 +1,13 @@
-group = "app.revanced"
+group = "app.brosssh"
 
 patches {
     about {
-        name = "ReVanced Patches template"
-        description = "Patches template for ReVanced"
-        source = "git@github.com:revanced/revanced-patches-template.git"
-        author = "ReVanced"
-        contact = "contact@revanced.app"
-        website = "https://revanced.app"
+        name = "Brosssh fork of ReVanced Patched"
+        description = "Brosssh fork of ReVanced Patched"
+        source = "git@github.com:brosssh/revanced-patches.git"
+        author = "Brosssh"
+        contact = ""
+        website = ""
         license = "GNU General Public License v3.0"
     }
 }
