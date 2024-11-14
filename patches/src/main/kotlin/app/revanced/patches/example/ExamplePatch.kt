@@ -7,7 +7,7 @@ val examplePatch = bytecodePatch(
     name = "Example Patch",
     description = "This is an example patch to start with.",
 ) {
-    compatibleWith("com.example.app"("1.0.0"))
+    compatibleWith("com.auxbrain.egginc")
 
     extendWith("extensions/extension.rve")
 
