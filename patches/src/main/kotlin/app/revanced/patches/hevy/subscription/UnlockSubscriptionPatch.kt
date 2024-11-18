@@ -9,7 +9,7 @@ val unlockSubscriptionPatch = rawResourcePatch(
     name = "Unlock PRO",
     description = "Unlocks PRO Subscription.",
 ) {
-    compatibleWith("com.hevy"("(2.0.0)"))
+    compatibleWith("com.hevy"("2.0.0"))
 
     execute {
         hexPatch{
