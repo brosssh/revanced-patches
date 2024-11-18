@@ -1,4 +1,4 @@
-## [1.1.1](https://github.com/Brosssh/revanced-patches/compare/v1.1.0...v1.1.1) (2024-11-18)
+## [1.1.1-dev.1](https://github.com/Brosssh/revanced-patches/compare/v1.1.0...v1.1.1-dev.1) (2024-11-18)
 
 
 ### Bug Fixes
