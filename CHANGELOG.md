@@ -1,3 +1,10 @@
+# [1.0.0-dev.2](https://github.com/Brosssh/revanced-patches/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2024-11-18)
+
+
+### Features
+
+* **Hevy:** Hevy app can now be patched in order to get PRO subscription ([4428af4](https://github.com/Brosssh/revanced-patches/commit/4428af4f66f861e0ab47ba0e2144e574fd10ecc5))
+
 # 1.0.0-dev.1 (2024-11-18)
 
 
