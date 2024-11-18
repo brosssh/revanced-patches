@@ -1,3 +1,8 @@
+public final class app/revanced/patches/example/ExamplePatchKt {
+	public static final fun getExamplePatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
 public final class app/revanced/patches/strava/subscription/UnlockSubscriptionPatchKt {
 	public static final fun getUnlockSubscriptionPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
+
