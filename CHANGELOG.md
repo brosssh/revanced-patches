@@ -1,3 +1,10 @@
+# 1.0.0 (2024-11-18)
+
+
+### Bug Fixes
+
+* Testing semantic release ([f203bac](https://github.com/Brosssh/revanced-patches/commit/f203bac8584720414bd7905beeb55d9d9ed3be59))
+
 ## [1.0.4](https://github.com/ReVanced/revanced-patches-template/compare/v1.0.3...v1.0.4) (2024-11-05)
 
 ## [1.0.4-dev.2](https://github.com/ReVanced/revanced-patches-template/compare/v1.0.4-dev.1...v1.0.4-dev.2) (2024-11-05)
