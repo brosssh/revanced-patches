@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Brosssh/revanced-patches/compare/v1.1.0...v1.1.1) (2024-11-18)
+
+
+### Bug Fixes
+
+* **Hevy:** Fixed app version compatibility ([ca052b7](https://github.com/Brosssh/revanced-patches/commit/ca052b7e338f42d83322bd6eff6417039e6a3324))
+
 # [1.1.0](https://github.com/Brosssh/revanced-patches/compare/v1.0.0...v1.1.0) (2024-11-18)
 
 
