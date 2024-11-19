@@ -3,7 +3,7 @@ public final class app/revanced/patches/hevy/subscription/UnlockSubscriptionPatc
 }
 
 public final class app/revanced/patches/shared/misc/hex/HexPatchKt {
-	public static final fun hexPatch (Lkotlin/jvm/functions/Function0;)Lapp/revanced/patcher/patch/RawResourcePatch;
+	public static final fun hexPatch (Lkotlin/jvm/functions/Function0;)Lapp/revanced/patcher/patch/ResourcePatch;
 }
 
 public final class app/revanced/patches/shared/misc/hex/Replacement {
