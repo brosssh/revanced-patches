@@ -1,7 +1,7 @@
 package app.revanced.patches.shared.misc.hex
 
 import app.revanced.patcher.patch.PatchException
-import app.revanced.patcher.patch.rawResourcePatch
+import app.revanced.patcher.patch.resourcePatch
 import kotlin.math.max
 
 // The replacements being passed using a function is intended.
@@ -9,7 +9,7 @@ import kotlin.math.max
 // This late evaluation was being leveraged in app.revanced.patches.all.misc.hex.HexPatch.
 // Without the function, the replacements would be evaluated at the time of patch creation.
 // This isn't possible because the delegated property is not accessible at that time.
-fun hexPatch(replacementsSupplier: () -> Set<Replacement>) = rawResourcePatch {
+fun hexPatch(replacementsSupplier: () -> Set<Replacement>) = resourcePatch {
     execute {
         replacementsSupplier().groupBy { it.targetFilePath }.forEach { (targetFilePath, replacements) ->
             val targetFile = try {

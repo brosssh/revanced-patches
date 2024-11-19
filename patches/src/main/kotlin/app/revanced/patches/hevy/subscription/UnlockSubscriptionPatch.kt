@@ -11,30 +11,41 @@ val unlockSubscriptionPatch = rawResourcePatch(
 ) {
     compatibleWith("com.hevy"("2.0.0"))
 
-    execute {
+    dependsOn (
         hexPatch{
             setOf(
                 Replacement(
-                    "66 38 66 66 37 37 30 31",
-                    "66 38 37 66 37 37 30 31",
+                    "f8 ff 77 01 7a",
+                    "f8 7f 77 01 7a",
+                    "assets/index.android.bundle"
+
+                ),
+                Replacement(
+                    "00 f8 ff 5c 01",
+                    "00 f8 7f 5c 01",
                     "assets/index.android.bundle"
                 ),
                 Replacement(
-                    "30 66 38 66 66 35 63 30 31",
-                    "30 66 38 37 66 35 63 30 31",
+                    "f8 ff 0d 03 00",
+                    "f8 7f 0d 03 00",
                     "assets/index.android.bundle"
                 ),
                 Replacement(
-                    "66 38 66 66 30 64 30 33 30", //f8ff0d030, this will be replaced 3 times
-                    "30 66 38 37 66 35 63 30 31",
+                    "f8 ff 0d 03 00",
+                    "f8 7f 0d 03 00",
                     "assets/index.android.bundle"
                 ),
                 Replacement(
-                    "66 39 39 30 30 37 30 30 37 39 30 30 35 63",
-                    "30 37 30 30 37 38 30 30 35 63",
+                    "f8 ff 0d 03 00",
+                    "f8 7f 0d 03 00",
+                    "assets/index.android.bundle"
+                ),
+                Replacement(
+                    "f9 90 07 00 79 00 5c",
+                    "f9 90 07 00 78 00 5c",
                     "assets/index.android.bundle"
                 )
             )
         }
-    }
+    )
 }
