@@ -1,3 +1,10 @@
+## [1.1.1-dev.2](https://github.com/Brosssh/revanced-patches/compare/v1.1.1-dev.1...v1.1.1-dev.2) (2024-11-19)
+
+
+### Bug Fixes
+
+* **Hevy:** Fixed PRO Subscription ([2d02ee5](https://github.com/Brosssh/revanced-patches/commit/2d02ee5c665dea72b9144af878c54f6c10ebb624))
+
 ## [1.1.1-dev.1](https://github.com/Brosssh/revanced-patches/compare/v1.1.0...v1.1.1-dev.1) (2024-11-18)
 
 
