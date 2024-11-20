@@ -1,4 +1,16 @@
-## [1.1.2](https://github.com/Brosssh/revanced-patches/compare/v1.1.1...v1.1.2) (2024-11-19)
+# [1.2.0-dev.1](https://github.com/Brosssh/revanced-patches/compare/v1.1.2-dev.1...v1.2.0-dev.1) (2024-11-20)
+
+
+### Bug Fixes
+
+* **Hevy:** Fixed PRO Subscription ([af566a5](https://github.com/Brosssh/revanced-patches/commit/af566a564f3fe3f12f54f7fd5dc888ada046264e))
+
+
+### Features
+
+* **Komoot:** Added patch for Komoot navigation and maps download ([ee502f7](https://github.com/Brosssh/revanced-patches/commit/ee502f7f53a7854769fcba7b5d946485b5d88203))
+
+## [1.1.2-dev.1](https://github.com/Brosssh/revanced-patches/compare/v1.1.1...v1.1.2-dev.1) (2024-11-19)
 
 
 ### Bug Fixes
