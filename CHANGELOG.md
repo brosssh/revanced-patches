@@ -1,3 +1,11 @@
+# [1.3.0-dev.1](https://github.com/Brosssh/revanced-patches/compare/v1.2.0...v1.3.0-dev.1) (2024-11-21)
+
+
+### Features
+
+* **Komoot:** Added patch for Komoot navigation and maps download ([dbdcda1](https://github.com/Brosssh/revanced-patches/commit/dbdcda1ec006eb498aac7de35fe2f587452dea53))
+* **Komoot:** Added patch for Komoot premium features ([185c298](https://github.com/Brosssh/revanced-patches/commit/185c298d2d0fbe327928a31d1d5540190b57a56d))
+
 # [1.2.0](https://github.com/Brosssh/revanced-patches/compare/v1.1.2...v1.2.0) (2024-11-20)
 
 
