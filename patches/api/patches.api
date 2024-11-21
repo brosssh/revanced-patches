@@ -6,6 +6,10 @@ public final class app/revanced/patches/komoot/navigation/UnlockNavigationPatchK
 	public static final fun getUnlockProPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
+public final class app/revanced/patches/komoot/premium/UnlockPremiumFeaturesPatchKt {
+	public static final fun getUnlockProPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
 public final class app/revanced/patches/shared/misc/hex/HexPatchKt {
 	public static final fun hexPatch (Lkotlin/jvm/functions/Function0;)Lapp/revanced/patcher/patch/ResourcePatch;
 }
