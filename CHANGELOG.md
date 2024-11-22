@@ -1,3 +1,12 @@
+# [1.3.0-dev.2](https://github.com/Brosssh/revanced-patches/compare/v1.3.0-dev.1...v1.3.0-dev.2) (2024-11-22)
+
+
+### Bug Fixes
+
+* **Komoot:** Now displaying premium on profile page ([015fb89](https://github.com/Brosssh/revanced-patches/commit/015fb89bec16bf95a7d2716eb2df7a684e8446b8))
+
+# [1.3.0-dev.1](https://github.com/Brosssh/revanced-patches/compare/v1.2.0...v1.3.0-dev.1) (2024-11-21)
+
 # [1.3.0](https://github.com/Brosssh/revanced-patches/compare/v1.2.0...v1.3.0) (2024-11-21)
 
 
