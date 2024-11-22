@@ -25,5 +25,19 @@ val unlockProPatch = bytecodePatch(
                 """
             )
         }
+
+        displayPremiumFingerprint.method.apply {
+            val index = implementation!!.instructions.indexOfLast{
+                Opcode.INVOKE_DIRECT_RANGE == it.opcode
+            }
+
+            addInstructions(
+                index,
+                """
+                    const/4 v0, 0x1
+                    move v6, v0
+                """
+            )
+        }
     }
 }

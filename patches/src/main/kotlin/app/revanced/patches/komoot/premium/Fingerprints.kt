@@ -14,3 +14,12 @@ internal val premiumConfigFingerprint = fingerprint {
         classDef.endsWith("api/model/AppConfigV3;")
     }
 }
+
+internal val displayPremiumFingerprint = fingerprint {
+    accessFlags(AccessFlags.PUBLIC, AccessFlags.FINAL)
+    parameters("L")
+    returns("L")
+    custom { _, classDef ->
+        classDef.endsWith("PublicUserProfileV7\$Companion;")
+    }
+}
