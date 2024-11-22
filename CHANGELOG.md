@@ -7,6 +7,8 @@
 
 # [1.3.0-dev.1](https://github.com/Brosssh/revanced-patches/compare/v1.2.0...v1.3.0-dev.1) (2024-11-21)
 
+# [1.3.0](https://github.com/Brosssh/revanced-patches/compare/v1.2.0...v1.3.0) (2024-11-21)
+
 
 ### Features
 
