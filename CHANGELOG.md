@@ -5,7 +5,7 @@
 
 * **Calistree:** New patch for Calistree's PRO subscription ([5a0def4](https://github.com/Brosssh/revanced-patches/commit/5a0def43ba3c778ed6e87a0aa587a475a6fb3469))
 
-## [1.3.1-dev.1](https://github.com/Brosssh/revanced-patches/compare/v1.3.0...v1.3.1-dev.1) (2024-11-22)
+## [1.3.1](https://github.com/Brosssh/revanced-patches/compare/v1.3.0...v1.3.1) (2024-11-22)
 
 
 ### Bug Fixes
