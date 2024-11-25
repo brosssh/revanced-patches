@@ -1,3 +1,7 @@
+public final class app/revanced/patches/calistree/pro/UnlockProPatchKt {
+	public static final fun getUnlockProPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
 public final class app/revanced/patches/hevy/subscription/UnlockSubscriptionPatchKt {
 	public static final fun getUnlockSubscriptionPatch ()Lapp/revanced/patcher/patch/RawResourcePatch;
 }
