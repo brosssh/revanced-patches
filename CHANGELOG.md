@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/Brosssh/revanced-patches/compare/v1.4.0...v1.5.0) (2024-11-25)
+
+
+### Features
+
+* **Calistree:** New patch for Calistree's PRO subscription ([ebc840e](https://github.com/Brosssh/revanced-patches/commit/ebc840e61c04b723c820c4e764188b5580bf42f8))
+
 # [1.4.0](https://github.com/Brosssh/revanced-patches/compare/v1.3.1...v1.4.0) (2024-11-25)
 
 
