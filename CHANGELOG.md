@@ -1,4 +1,4 @@
-# [1.5.0](https://github.com/Brosssh/revanced-patches/compare/v1.4.0...v1.5.0) (2024-11-25)
+# [1.5.0-dev.1](https://github.com/Brosssh/revanced-patches/compare/v1.4.0...v1.5.0-dev.1) (2024-11-25)
 
 
 ### Features
