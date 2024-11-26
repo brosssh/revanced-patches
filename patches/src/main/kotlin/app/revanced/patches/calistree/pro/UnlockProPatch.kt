@@ -47,7 +47,7 @@ val unlockProPatch = bytecodePatch(
             )
         }
 
-        //The above patch is for some reason not stored in cache
+        //The above patch is for some reason not being stored in cache
         //I'm therefore forcing the app to NOT get cached values but to get them from the API instead
         //The method that get from the API is the one patched above
         infoCacheOverwritePatch.method.apply {
