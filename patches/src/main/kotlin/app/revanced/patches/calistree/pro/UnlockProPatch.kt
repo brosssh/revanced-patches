@@ -3,6 +3,7 @@ package app.revanced.patches.calistree.pro
 import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
 import app.revanced.patcher.patch.bytecodePatch
 import com.android.tools.smali.dexlib2.Opcode
+import com.android.tools.smali.dexlib2.builder.instruction.BuilderInstruction21t
 import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
 import com.android.tools.smali.dexlib2.iface.reference.StringReference
 
@@ -46,5 +47,18 @@ val unlockProPatch = bytecodePatch(
             )
         }
 
+        //The above patch is for some reason not stored in cache
+        //I'm therefore forcing the app to NOT get cached values but to get them from the API instead
+        //The method that get from the API is the one patched above
+        infoCacheOverwritePatch.method.apply {
+            val instruction = implementation!!.instructions.first {
+                Opcode.IF_EQZ == it.opcode
+            }
+            val register =  (instruction as BuilderInstruction21t).registerA
+            addInstructions(
+                instruction.location.index,
+                "const/4 v$register, 0x0"
+            )
+        }
     }
 }
