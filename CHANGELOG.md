@@ -1,3 +1,10 @@
+# [1.5.0-dev.2](https://github.com/Brosssh/revanced-patches/compare/v1.5.0-dev.1...v1.5.0-dev.2) (2024-11-26)
+
+
+### Bug Fixes
+
+* **Calistree:** Do not fetch from cache but use the patched method instead ([636ffba](https://github.com/Brosssh/revanced-patches/commit/636ffba2de7670adaf45fd3333c3dc7aace9f1f0))
+
 # [1.5.0-dev.1](https://github.com/Brosssh/revanced-patches/compare/v1.4.0...v1.5.0-dev.1) (2024-11-25)
 
 
