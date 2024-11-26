@@ -1,5 +1,4 @@
-# [1.5.0-dev.2](https://github.com/Brosssh/revanced-patches/compare/v1.5.0-dev.1...v1.5.0-dev.2) (2024-11-26)
-
+## [1.5.1-dev.1](https://github.com/Brosssh/revanced-patches/compare/v1.5.0...v1.5.1-dev.1) (2024-11-26)
 
 ### Bug Fixes
 
