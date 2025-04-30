@@ -1,3 +1,16 @@
+# [1.6.0](https://github.com/Brosssh/revanced-patches/compare/v1.5.1...v1.6.0) (2025-04-30)
+
+
+### Bug Fixes
+
+* Build fix ([f7e164f](https://github.com/Brosssh/revanced-patches/commit/f7e164ff5718a5676d68a51b9b20087d2d3316df))
+* **Calistree:** Do not fetch from cache but use the patched method instead ([9b25b48](https://github.com/Brosssh/revanced-patches/commit/9b25b4860f9f7edc7ab5c7dee4b5793128def74a))
+
+
+### Features
+
+* **Mapy:** Unlock premium patch ([b38e24f](https://github.com/Brosssh/revanced-patches/commit/b38e24f07cf2b04057aa2b024cf3682f4c9d2ab8))
+
 # [1.6.0-dev.1](https://github.com/Brosssh/revanced-patches/compare/v1.5.2-dev.1...v1.6.0-dev.1) (2025-04-30)
 
 
