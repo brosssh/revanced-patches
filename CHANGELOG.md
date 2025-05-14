@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/Brosssh/revanced-patches/compare/v1.6.0...v1.6.1) (2025-05-14)
+
+
+### Bug Fixes
+
+* **Hevy:** Deprecated Hevy ([88cca06](https://github.com/Brosssh/revanced-patches/commit/88cca06e7d75235467379ae43d5ef906051def95))
+
 ## [1.6.1-dev.1](https://github.com/Brosssh/revanced-patches/compare/v1.6.0...v1.6.1-dev.1) (2025-05-14)
 
 
