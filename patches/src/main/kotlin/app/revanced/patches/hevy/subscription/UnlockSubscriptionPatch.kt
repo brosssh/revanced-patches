@@ -5,6 +5,7 @@ import app.revanced.patches.shared.misc.hex.hexPatch
 import app.revanced.patches.shared.misc.hex.Replacement
 
 @Suppress("unused")
+@Deprecated("This patch no longer works and will be removed in the future.")
 val unlockSubscriptionPatch = rawResourcePatch(
     name = "Unlock PRO",
     description = "Unlocks PRO Subscription.",
