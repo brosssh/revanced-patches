@@ -5,9 +5,9 @@ patches {
         name = "Brosssh Patches"
         description = "Brosssh Patches"
         source = "git@github.com:brosssh/revanced-patches.git"
-        author = "Brosssh"
+        author = "brosssh"
         contact = ""
-        website = ""
+        website = "https://github.com/Brosssh"
         license = "GNU General Public License v3.0"
     }
 }
