@@ -2,8 +2,8 @@ group = "app.brosssh"
 
 patches {
     about {
-        name = "Brosssh fork of ReVanced Patched"
-        description = "Brosssh fork of ReVanced Patched"
+        name = "Brosssh Patches"
+        description = "Brosssh Patches"
         source = "git@github.com:brosssh/revanced-patches.git"
         author = "Brosssh"
         contact = ""
