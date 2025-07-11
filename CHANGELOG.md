@@ -1,3 +1,10 @@
+# [1.7.0-dev.2](https://github.com/brosssh/revanced-patches/compare/v1.7.0-dev.1...v1.7.0-dev.2) (2025-07-11)
+
+
+### Bug Fixes
+
+* Random commit since I fucked up semantic release (classic) ([5982a97](https://github.com/brosssh/revanced-patches/commit/5982a979698489ec3f4a25c84e1c3bc9ec3dabff))
+
 # [1.7.0-dev.1](https://github.com/brosssh/revanced-patches/compare/v1.6.1...v1.7.0-dev.1) (2025-07-11)
 
 
