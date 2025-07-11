@@ -1,3 +1,10 @@
+# [1.7.0-dev.1](https://github.com/brosssh/revanced-patches/compare/v1.6.1...v1.7.0-dev.1) (2025-07-11)
+
+
+### Features
+
+* **Geocaching:** Premium patch for Geocaching. ([#38](https://github.com/brosssh/revanced-patches/issues/38)) ([df8adad](https://github.com/brosssh/revanced-patches/commit/df8adad82273d81ac7b129bc2bbe9a03196c55c6))
+
 ## [1.6.1](https://github.com/Brosssh/revanced-patches/compare/v1.6.0...v1.6.1) (2025-05-14)
 
 
