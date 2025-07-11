@@ -1,4 +1,4 @@
-package app.revanced.patches.all.misc.revenuecat
+package app.revanced.patches.revenuecat.premium
 
 import app.revanced.patcher.fingerprint
 
