@@ -1,4 +1,4 @@
-package app.revanced.patches.calistree.pro
+package app.revanced.patches.all.misc.revenuecat
 
 import app.revanced.patcher.fingerprint
 

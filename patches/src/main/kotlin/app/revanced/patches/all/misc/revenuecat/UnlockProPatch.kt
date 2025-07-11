@@ -1,4 +1,4 @@
-package app.revanced.patches.calistree.pro
+package app.revanced.patches.all.misc.revenuecat
 
 import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
 import app.revanced.patcher.patch.bytecodePatch
@@ -9,10 +9,8 @@ import com.android.tools.smali.dexlib2.iface.reference.StringReference
 
 @Suppress("unused")
 val unlockProPatch = bytecodePatch(
-    name = "Unlock Pro",
+    name = "Unlock RevenueCat Pro",
 ) {
-    compatibleWith("com.calistree.calistree"("4.17.8"))
-
     execute {
         proFingerprint.method.apply {
             val subscriptionsInstruction = implementation!!.instructions.first { it ->
