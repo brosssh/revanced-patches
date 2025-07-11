@@ -11,7 +11,7 @@ import com.android.tools.smali.dexlib2.iface.instruction.RegisterRangeInstructio
 @Suppress("unused")
 val unlockPremiumPatch = bytecodePatch(
     name = "Unlock Premium features",
-    description = "WARNING: This only works via mount install (root required). Lists are still locked as they are server sided."
+    description = "WARNING: This only works via mount install (root required). Lists are still locked since they are server sided."
 ) {
     compatibleWith("com.groundspeak.geocaching.intro")
 
