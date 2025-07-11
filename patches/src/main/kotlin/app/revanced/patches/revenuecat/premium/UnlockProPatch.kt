@@ -45,21 +45,22 @@ val unlockProPatch = bytecodePatch(
         proFingerprint.method.apply {
             val subscriptionsInstruction = implementation!!.instructions.first { it ->
                 if (it.opcode != Opcode.CONST_STRING) return@first false
-
                 ((it as ReferenceInstruction).reference as StringReference).string == "subscriptions"
             }
 
             val entitlementsInstruction = implementation!!.instructions.first { it ->
                 if (it.opcode != Opcode.CONST_STRING) return@first false
-
                 ((it as ReferenceInstruction).reference as StringReference).string == "entitlements"
             }
 
-            val planField = if (product_plan_identifier.isNullOrBlank()) "" else ",\\\"product_plan_identifier\\\":\\\"$product_plan_identifier\\\""
+            val planField = if (product_plan_identifier.isNullOrBlank()) "" else ",\"product_plan_identifier\":\"$product_plan_identifier\""
+            val subscriptionsJson = "{\"$product_identifier\":{\"auto_resume_date\":null,\"billing_issues_detected_at\":null,\"expires_date\":\"2099-12-31T00:00:00Z\",\"grace_period_expires_date\":null,\"is_sandbox\":false,\"original_purchase_date\":\"2000-01-01T00:00:00Z\",\"period_type\":\"normal\"$planField,\"purchase_date\":\"2000-01-01T00:00:00Z\",\"refunded_at\":null,\"store\":\"play_store\",\"unsubscribe_detected_at\":null}}"
+            val entitlementsJson = "{\"$entitlementsName\":{\"expires_date\":\"2099-12-31T00:00:00Z\",\"grace_period_expires_date\":null,\"product_identifier\":\"$product_identifier\"$planField,\"purchase_date\":\"2000-01-01T00:00:00Z\"}}"
+
             addInstructions(
                 subscriptionsInstruction.location.index + 3,
                 """
-                    const-string v4, \"\${\"$product_identifier\":{\\\"auto_resume_date\\\":null,\\\"billing_issues_detected_at\\\":null,\\\"expires_date\\\":\\\"2099-12-31T00:00:00Z\\\",\\\"grace_period_expires_date\\\":null,\\\"is_sandbox\\\":false,\\\"original_purchase_date\\\":\\\"2000-01-01T00:00:00Z\\\",\\\"period_type\\\":\\\"normal\\\"$planField,\\\"purchase_date\\\":\\\"2000-01-01T00:00:00Z\\\",\\\"refunded_at\\\":null,\\\"store\\\":\\\"play_store\\\",\\\"unsubscribe_detected_at\\\":null}}\"
+                    const-string v4, "$subscriptionsJson"
                     new-instance v6, Lorg/json/JSONObject;
                     invoke-direct {v6, v4}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
                     const-string v4, "subscriptions"
@@ -69,7 +70,7 @@ val unlockProPatch = bytecodePatch(
             addInstructions(
                 entitlementsInstruction.location.index + 3,
                 """
-                    const-string v9, \"{\\\"$entitlements_name\\\":{\\\"expires_date\\\":\\\"2099-12-31T00:00:00Z\\\",\\\"grace_period_expires_date\\\":null,\\\"product_identifier\\\":\\\"$product_identifier\\\"$planField,\\\"purchase_date\\\":\\\"2000-01-01T00:00:00Z\\\"}}\"
+                    const-string v9, "$entitlementsJson"
                     new-instance v8, Lorg/json/JSONObject;
                     invoke-direct {v8, v9}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
                 """
