@@ -1,7 +1,3 @@
-public final class app/revanced/patches/calistree/pro/UnlockProPatchKt {
-	public static final fun getUnlockProPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
-}
-
 public final class app/revanced/patches/hevy/subscription/UnlockSubscriptionPatchKt {
 	public static final fun getUnlockSubscriptionPatch ()Lapp/revanced/patcher/patch/RawResourcePatch;
 }
@@ -20,6 +16,10 @@ public final class app/revanced/patches/mapy/misc/spoof/BypassSignatureCheckKt {
 
 public final class app/revanced/patches/mapy/premium/UnlockPremiumPatchKt {
 	public static final fun getBypassSignatureCheck ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/revenuecat/premium/UnlockProPatchKt {
+	public static final fun getUnlockProPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
 public final class app/revanced/patches/shared/misc/extension/ExtensionHook {
