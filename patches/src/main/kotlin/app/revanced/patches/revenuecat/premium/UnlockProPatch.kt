@@ -11,6 +11,7 @@ import com.android.tools.smali.dexlib2.iface.reference.StringReference
 @Suppress("unused")
 val unlockProPatch = bytecodePatch(
     name = "Unlock RevenueCat Pro",
+    use=false
 )
 
 {
