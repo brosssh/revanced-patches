@@ -64,7 +64,7 @@ val unlockProPatch = bytecodePatch(
                     new-instance v6, Lorg/json/JSONObject;
                     invoke-direct {v6, v4}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
                     const-string v4, "subscriptions"
-                """
+                """.trimIndent()
             )
 
             addInstructions(
@@ -73,7 +73,7 @@ val unlockProPatch = bytecodePatch(
                     const-string v9, "$entitlementsJson"
                     new-instance v8, Lorg/json/JSONObject;
                     invoke-direct {v8, v9}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
-                """
+                """.trimIndent()
             )
         }
 
