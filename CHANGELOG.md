@@ -1,3 +1,17 @@
+# [1.7.0](https://github.com/bibi0019/revanced-patches-revenuecat/compare/v1.6.1...v1.7.0) (2025-07-12)
+
+
+### Bug Fixes
+
+* added stringOption ([777dec6](https://github.com/bibi0019/revanced-patches-revenuecat/commit/777dec638f0fc84ec1a9946ff2fc5eb3fc7fce1e))
+* update API changes ([2b3f78d](https://github.com/bibi0019/revanced-patches-revenuecat/commit/2b3f78d807e7c0cb66d8130a9fda0a630259b946))
+
+
+### Features
+
+* add planField ([be52f5d](https://github.com/bibi0019/revanced-patches-revenuecat/commit/be52f5d57822f879276cee20064efb2381726f56))
+* moved dictionary and make some string changeable ([edb65b6](https://github.com/bibi0019/revanced-patches-revenuecat/commit/edb65b6fbf41d61df5ead774d10c0fd4ba3c0c80))
+
 ## [1.6.1](https://github.com/Brosssh/revanced-patches/compare/v1.6.0...v1.6.1) (2025-05-14)
 
 
