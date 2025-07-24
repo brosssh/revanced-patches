@@ -1,3 +1,10 @@
+# [1.8.0-dev.1](https://github.com/brosssh/revanced-patches/compare/v1.7.1...v1.8.0-dev.1) (2025-07-24)
+
+
+### Features
+
+* **park4night:** Pro patch for park4night ([6b54d43](https://github.com/brosssh/revanced-patches/commit/6b54d43f3fac257653e990954a530dd1c1845dab))
+
 ## [1.7.1](https://github.com/brosssh/revanced-patches/compare/v1.7.0...v1.7.1) (2025-07-15)
 
 
