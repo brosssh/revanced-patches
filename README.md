@@ -100,4 +100,4 @@ Please see the [license file](LICENSE) for more information.
 [tl;dr](https://www.tldrlegal.com/license/gnu-general-public-license-v3-gpl-3) you may copy, distribute
 and modify ReVanced Patches template as long as you track changes/dates in source files.
 Any modifications to ReVanced Patches template must also be made available under the GPL,
-along with build & install instructions.
+along with build & install instructions
