@@ -5,10 +5,10 @@ import app.revanced.patches.shared.misc.hex.hexPatch
 import app.revanced.patches.shared.misc.hex.Replacement
 
 @Suppress("unused")
-@Deprecated("This patch no longer works and will be removed in the future.")
 val unlockSubscriptionPatch = rawResourcePatch(
-    name = "Unlock PRO",
-    description = "Unlocks PRO Subscription.",
+    name = "Unlock Pro features",
+    description = "Unlocks Pro features. Most features in this app are server sided, so they can't be patched. " +
+            "This should unlock everything which is possible to patch.",
 ) {
     compatibleWith("com.hevy"("2.0.0"))
 

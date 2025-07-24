@@ -23,3 +23,11 @@ internal val displayPremiumFingerprint = fingerprint {
         classDef.endsWith("PublicUserProfileV7\$Companion;")
     }
 }
+
+internal val routingPermissionFingerprint = fingerprint {
+    accessFlags(AccessFlags.PUBLIC, AccessFlags.CONSTRUCTOR)
+    parameters("L")
+    custom { _, classDef ->
+        classDef.endsWith("api/model/RoutingPermission;")
+    }
+}

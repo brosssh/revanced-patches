@@ -9,13 +9,17 @@ import com.android.tools.smali.dexlib2.iface.reference.StringReference
 
 @Suppress("unused")
 val unlockProPatch = bytecodePatch(
-    name = "Unlock Pro",
+    name = "Unlock Pro features",
+    description = "Unlock Pro features. " +
+            "Sometimes the app forget about my patches and a popup screen asking " +
+            "to subscribe will be shown. In this screen, just swipe down to refresh " +
+            "and the app will have Pro features again."
 ) {
     compatibleWith("com.calistree.calistree"("4.17.8"))
 
     execute {
         proFingerprint.method.apply {
-            val subscriptionsInstruction = implementation!!.instructions.first { it ->
+            val subscriptionsInstruction = implementation!!.instructions.first {
                 if (it.opcode != Opcode.CONST_STRING) return@first false
 
                 ((it as ReferenceInstruction).reference as StringReference).string == "subscriptions"

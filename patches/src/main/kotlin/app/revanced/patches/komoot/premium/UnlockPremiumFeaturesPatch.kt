@@ -6,8 +6,9 @@ import com.android.tools.smali.dexlib2.Opcode
 
 @Suppress("unused")
 val unlockProPatch = bytecodePatch(
-    name = "Unlock Premium",
-    description = "Unlock weather forecasting and multi-days planning (not possible to save a multi-day tour, however)"
+    name = "Unlock Premium features",
+    description = "Unlock Premium features. Some features are not possible to patch (server sided), " +
+            "such as saving a multi-days hike."
 ) {
     compatibleWith("de.komoot.android"("2024.29.3"))
 
@@ -37,6 +38,17 @@ val unlockProPatch = bytecodePatch(
                     const/4 v0, 0x1
                     move v6, v0
                 """
+            )
+        }
+
+        routingPermissionFingerprint.method.apply {
+            val index = implementation!!.instructions.indexOfLast{
+                Opcode.MOVE_RESULT_OBJECT == it.opcode
+            }
+
+            addInstructions(
+                index + 1,
+                "sget-object p1, Lde/komoot/android/services/api/model/RoutingPermission\$StatusPermission;->GRANTED:Lde/komoot/android/services/api/model/RoutingPermission\$StatusPermission;",
             )
         }
     }
