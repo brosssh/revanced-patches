@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/brosssh/revanced-patches/compare/v1.8.0...v1.8.1) (2025-07-24)
+
+
+### Bug Fixes
+
+* **docs:** Improve description of patches ([08e875b](https://github.com/brosssh/revanced-patches/commit/08e875bc704c06fd0286f988b0bb3c2b1b29a247))
+
 ## [1.8.1-dev.1](https://github.com/brosssh/revanced-patches/compare/v1.8.0...v1.8.1-dev.1) (2025-07-24)
 
 
