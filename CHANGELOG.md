@@ -1,3 +1,10 @@
+# [1.9.0-dev.1](https://github.com/brosssh/revanced-patches/compare/v1.8.1...v1.9.0-dev.1) (2025-08-26)
+
+
+### Features
+
+* **chargeprice:** Add `Unlock Premium features` patch ([18a3934](https://github.com/brosssh/revanced-patches/commit/18a39349eebc354b199a1ee6536c0df70562ef79))
+
 ## [1.8.1](https://github.com/brosssh/revanced-patches/compare/v1.8.0...v1.8.1) (2025-07-24)
 
 
