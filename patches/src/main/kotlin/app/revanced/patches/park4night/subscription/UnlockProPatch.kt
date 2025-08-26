@@ -6,7 +6,7 @@ import app.revanced.patcher.patch.bytecodePatch
 @Suppress("unused")
 val unlockProPatch = bytecodePatch(
     name = "Unlock Pro features",
-    description = "Unlock Pro features (park4night +). You have be logged in with an account."
+    description = "Unlock Pro features (park4night +). You have to be logged in with an account."
 ) {
     compatibleWith("fr.tramb.park4night"("7.1.11"))
 
