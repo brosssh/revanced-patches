@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/brosssh/revanced-patches/compare/v1.9.0...v1.9.1) (2025-09-14)
+
+
+### Bug Fixes
+
+* **Mapy:** Add support for latest version `9.70.1`. ([806638f](https://github.com/brosssh/revanced-patches/commit/806638fd522d70bfda28aeecfe7999fb5c72ad59))
+
 ## [1.9.1-dev.1](https://github.com/brosssh/revanced-patches/compare/v1.9.0...v1.9.1-dev.1) (2025-09-14)
 
 
