@@ -11,5 +11,5 @@ internal val userInfoFromJsonFingerprint = fingerprint {
 internal val featuresSyntheticInitFingerprint = fingerprint {
     custom { method, classDef ->
         method.name == "<init>" && classDef.endsWith("/FeaturesApiModel;")}
-    parameters("I", "Z", "Z", "Z", "I", "Z", "Z", "Z", "L")
+    parameters("I", "Z", "Z", "Z", "I", "Z", "Z", "Z", "Z", "L")
 }
