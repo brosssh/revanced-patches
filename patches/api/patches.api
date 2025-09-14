@@ -23,7 +23,7 @@ public final class app/revanced/patches/mapy/misc/spoof/BypassSignatureCheckKt {
 }
 
 public final class app/revanced/patches/mapy/premium/UnlockPremiumPatchKt {
-	public static final fun getBypassSignatureCheck ()Lapp/revanced/patcher/patch/BytecodePatch;
+	public static final fun getUnlockPremiumPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
 public final class app/revanced/patches/park4night/subscription/UnlockProPatchKt {
