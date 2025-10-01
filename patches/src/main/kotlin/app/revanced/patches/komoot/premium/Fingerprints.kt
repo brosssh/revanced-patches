@@ -2,32 +2,41 @@ package app.revanced.patches.komoot.premium
 
 import app.revanced.patcher.fingerprint
 import com.android.tools.smali.dexlib2.AccessFlags
-import com.android.tools.smali.dexlib2.Opcode
 
 internal val premiumConfigFingerprint = fingerprint {
     accessFlags(AccessFlags.PUBLIC, AccessFlags.CONSTRUCTOR)
-    opcodes(
-        Opcode.MOVE_OBJECT,
-        Opcode.INVOKE_DIRECT
+    parameters(
+        "L", "L", "L", "L", "L", "L", "L", "L", "L", "L", "L",
+        "L", "L", "L", "L", "L", "L", "L", "L", "L" ,"L",
+        "Ljava/lang/Boolean;", "L"
     )
     custom { _, classDef ->
         classDef.endsWith("api/model/AppConfigV3;")
     }
 }
 
-internal val displayPremiumFingerprint = fingerprint {
-    accessFlags(AccessFlags.PUBLIC, AccessFlags.FINAL)
-    parameters("L")
-    returns("L")
+internal val publicUserInitFingerprint = fingerprint {
+    accessFlags(AccessFlags.PUBLIC, AccessFlags.CONSTRUCTOR)
+    parameters("L", "L", "L", "L", "Z")
     custom { _, classDef ->
-        classDef.endsWith("PublicUserProfileV7\$Companion;")
+        classDef.endsWith("api/model/PublicUserProfileV7;")
     }
 }
 
-internal val routingPermissionFingerprint = fingerprint {
+private const val routingPermissionClassName = "Lde/komoot/android/services/api/model/RoutingPermission"
+
+internal val routingPermissionInitFingerprint = fingerprint {
     accessFlags(AccessFlags.PUBLIC, AccessFlags.CONSTRUCTOR)
-    parameters("L")
+    parameters("$routingPermissionClassName${"$"}StatusPermission;")
     custom { _, classDef ->
-        classDef.endsWith("api/model/RoutingPermission;")
+        classDef.type == "$routingPermissionClassName;"
+    }
+}
+
+internal val routingPermissionInitJsonFingerprint = fingerprint {
+    accessFlags(AccessFlags.PUBLIC, AccessFlags.CONSTRUCTOR)
+    parameters("Lorg/json/JSONObject;")
+    custom { _, classDef ->
+        classDef.type == "$routingPermissionClassName;"
     }
 }
