@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/brosssh/revanced-patches/compare/v1.9.1...v1.9.2) (2025-10-01)
+
+
+### Bug Fixes
+
+* **Komoot:** Updated patches to support version `2025.38.2` ([df62b9c](https://github.com/brosssh/revanced-patches/commit/df62b9c5f5cb8546bce2a97e8b0bb1e4933d45c0))
+
 ## [1.9.2-dev.1](https://github.com/brosssh/revanced-patches/compare/v1.9.1...v1.9.2-dev.1) (2025-10-01)
 
 
